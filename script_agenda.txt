@@ -1,0 +1,21 @@
+CREATE DATABASE RH;
+
+USE RH;
+
+CREATE TABLE funcionario
+(
+cd_funcionario INT,
+nm_funcionario VARCHAR(50),
+nm_CPF VARCHAR(11),
+nm_email VARCHAR(45),
+nm_telefone INT,
+ic_genero CHARACTER,
+ic_estado_civil VARCHAR(10),
+dt_nascimento INT,
+nm_logradouro VARCHAR (60),
+nm_cidade VARCHAR (30),
+nm_bairro VARCHAR (30),
+sg_UF VARCHAR (2),
+nm_CEP VARCHAR (8),
+CONSTRAINT pk_funcionario PRIMARY KEY (cd_funcionario)
+);
